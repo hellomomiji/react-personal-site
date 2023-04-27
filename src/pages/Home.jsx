@@ -11,7 +11,7 @@ function Home({setPage}) {
       <p>I worked as a technology consultant and project manager before in Japan.</p>
       </div>
       <div className="home-pic-block">
-        <img className="home-headshot" src="/react-personal-site/public/img/home-headshot.jpg" alt="Yang's headshot" />
+        <img className="home-headshot" src="/react-personal-site/blob/main/public/img/home-headshot.jpg" alt="Yang's headshot" />
       </div>
       <div className="home-button-area">
       <ButtonLink
