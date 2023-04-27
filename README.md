@@ -6,12 +6,12 @@
 - Built by React.js, JavaScript, HTML, CSS.
 - A Single Page Application without using react-router.
 - Follows Mobile First Design apporach and fully responsive/adaptive.
-- Supports A11y.
+- Follow A11y(Accessibility) best Practices.
 - Vanilla components of:
   - Navigation menu(Drop down & hamburger menu)
   - Card
   - Panel
   - Accordion
   - Carousel
-  - and Tab.
-- Supports complex form interaction, rander specific fields based on critera, interactive form validation.
+  - Tab
+- Supports complex form interaction, randering specific fields based on criteria, interactive form validation.
