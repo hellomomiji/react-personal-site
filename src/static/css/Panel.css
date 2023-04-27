@@ -1,0 +1,51 @@
+.panel {
+  grid-column: span 12;
+  display: block;
+  align-items: center;
+  
+  padding: 1rem;
+
+  background-color: inherit;
+}
+
+.panel:hover,
+.panel:focus-within {
+  background-color: var(--secondary-color);
+}
+
+.panel + .panel {
+  border-top: 1px solid var(--decorate-color);;
+}
+
+.panel-pic {
+  max-width: 50%;
+  max-height: 50%;
+
+  margin: 0.5rem;
+}
+
+.panel-pic-left {
+  float: left;
+}
+
+.panel-pic-right {
+  float: right;
+}
+
+.panel-text {
+  padding: 0 0.5rem;
+}
+
+
+@media (min-width: 44rem) {
+  .panel {
+    margin: 0;
+  }
+
+  .panel-pic {
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+
+}

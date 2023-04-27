@@ -1,0 +1,92 @@
+
+/* below CSS adapted from https://css.gg under the MIT License */
+
+.gg-menu-round {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px;
+  border-radius: 24px;
+  border: 2px solid;
+ }
+ 
+ .gg-menu-round::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 3px;
+  top: 4px;
+  left: 4px;
+  box-shadow: 0 4px 0, 0 8px 0
+ }
+  
+
+/* end */
+
+.global-nav-toggle {
+  border: none;
+  background-color: inherit;
+
+  padding: 1rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+.global-nav-list {
+  display: none;
+  flex-direction: column;
+
+  position: absolute;
+  right: 0;
+  background-color: var(--primary-color);
+
+  padding: 0;
+  margin: 0;
+}
+
+.global-nav-list--open {
+  display: flex;
+}
+
+.global-nav-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+
+  color: var(--light-text-color);
+}
+
+.global-nav-list li:hover,
+.global-nav-list li:focus-within {
+  background-color: var(--light-bg-color);
+  
+}
+.global-nav-link:hover,
+.global-nav-link:focus-within {
+  color: var(--text-color);
+}
+
+@media (min-width: 44rem) {
+  .global-nav {
+    width: 100%;
+  }
+  .global-nav-list {
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    right: initial;
+    width: 100%;
+
+    justify-content: space-around;
+  }
+
+  .global-nav-toggle {
+    display: none;
+  }
+}

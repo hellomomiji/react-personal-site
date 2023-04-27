@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --light-bg-color: #fff4e0;
+  --primary-color: #7b2e31;
+  --secondary-color: #e7dbd1;
+  --decorate-color: #bfa5a4;
+  --text-color: #4d4d4d;
+  --light-text-color: #ffffff;
+  --white-bg-color: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+  font-family: 'Merriweather', serif;
+
+  color: var(--text-color);
+}
+
+#root {
+  height: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+h3,
+h4 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 44rem) {
+
+}

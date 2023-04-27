@@ -1,0 +1,20 @@
+.tabbar {
+  display: flex;
+  flex-direction: row;
+  
+  padding-top: 0.5rem;
+}
+
+.tab-button {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.tab-button:hover{
+  background-color: var(--secondary-color);
+}
+
+.tab-button--active {
+  background-color: var(--secondary-color);
+}

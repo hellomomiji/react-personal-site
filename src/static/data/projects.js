@@ -1,0 +1,55 @@
+const projects = [
+  {
+    id: 1,
+    title: "NEU Hackers",
+    text: "A community enables user to ask and share.",
+    techStack: "Python Django",
+    img: "/img/projects-neucommunity.png",
+    imgalt:"NEU Hackers project screenshot",
+    link: "https://github.com/hellomomiji/NeuCommunity",
+    linkname: "Check GitHub",
+  },
+  {
+    id: 2,
+    title: "Personalized Imdb",
+    text: "A simple personalized IMDB Movie Info App.",
+    techStack: "Python Flask",
+    img: "/img/projects-imdb.png",
+    imgalt:"imdb project screenshot",
+    link: "https://github.com/hellomomiji/personalized-imdb-app",
+    linkname: "Check GitHub",
+  },
+  {
+    id: 3,
+    title: "Refine Dashboard App",
+    text: "A admin Dashboard for project management.",
+    techStack: "JavaScript",
+    img: "/img/wip.jpg",
+    imgalt:"work in porgress",
+    link: "https://github.com/hellomomiji/refine-dashboard-app",
+    linkname: "Check GitHub",
+  },
+  {
+    id: 4,
+    title: "Chinese Blog",
+    text: "An Archive Chinese Blog for weChat Account.",
+    techStack: "Ruby",
+    img: "/img/projects-blog.png",
+    imgalt:"blog project screenshot",
+    link: "https://github.com/hellomomiji/chinese-blog",
+    linkname: "Check GitHub",
+  },
+  {
+    id: 5,
+    title: "News Sentiment Analysis",
+    text: "Get Sentiment analysis by daily news and keyword.",
+    techStack: "Python Pytourch",
+    img: "/img/projects-news.png",
+    imgalt:"news project screenshot",
+    link: "https://github.com/hellomomiji/news-sentiment-analysis",
+    linkname: "Check GitHub",
+  },
+
+]
+
+export default projects

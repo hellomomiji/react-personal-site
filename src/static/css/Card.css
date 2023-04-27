@@ -1,0 +1,96 @@
+.card {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+
+  background-color: var(--secondary-color);
+}
+
+.card:hover,
+.card:focus-within {
+  background-color: inherit;
+  border: 1px solid var(--primary-color);
+}
+
+.card-title {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.card-img {
+  max-width: 50%;
+  max-height: 50%;
+  padding-bottom: 1rem;
+}
+
+.card-text {
+  margin-top: auto;
+}
+
+.card-tech-text {
+  margin-top: auto;
+}
+
+.card-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;
+  padding: 0.5rem;
+}
+
+.card-link span {
+  margin: 0 0.5rem;
+}
+
+/* below CSS adapted from https://css.gg under the MIT License */
+.gg-external {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 12px;
+  height: 12px;
+  box-shadow:
+  -2px 2px 0 0,
+  -4px -4px 0 -2px,
+  4px 4px 0 -2px;
+  margin-left: -2px;
+  margin-top: 1px;
+  padding-left: 0.5rem;
+ }
+ 
+ .gg-external::after,
+ .gg-external::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: -4px
+ }
+ 
+ .gg-external::before {
+  background: currentColor;
+  transform: rotate(-45deg);
+  width: 12px;
+  height: 2px;
+  top: 1px;
+ }
+ 
+ .gg-external::after {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid;
+  border-top: 2px solid;
+  top: -4px;
+ } 
+ /* end */
+
+@media (min-width: 44rem) {
+  .card {
+    grid-column: span 4;
+  }
+}

@@ -1,0 +1,18 @@
+.content-area {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+.content-title {
+  padding-right: 1rem;
+}

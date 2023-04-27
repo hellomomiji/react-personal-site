@@ -1,0 +1,12 @@
+.about {
+  width: 80%;
+  margin: auto;
+}
+
+.panels {
+  margin: 1rem 0;
+}
+
+@media (min-width: 44rem) {
+
+}

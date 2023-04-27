@@ -1,0 +1,81 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  padding: 1rem 0 0.5rem; 
+}
+
+.form em {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+.error {
+  color: var(--primary-color);
+  background-color: var(--light-bg-color);
+  padding: 0;
+}
+
+
+.form-input {
+  height: 2rem;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.form-input-other {
+  margin-top: 1rem;
+}
+
+.form-input-message {
+  height: 10rem;
+}
+
+
+.form-item-anonymous {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 0 0.5rem;
+}
+
+.form-input-anonymous {
+    height: 1.5rem;
+    width: 1.5rem;
+
+    margin: 0 2rem;
+}
+
+.submit-button {
+  display: block;
+  margin: 2rem auto 0;
+}
+
+@media (min-width: 44rem) {
+  .form-input-other {
+    max-width: 50%;
+  }
+  
+  .form-name {
+    max-width: 50%;
+  }
+  
+  .form-email {
+    max-width: 50%;
+  }
+
+
+}

@@ -1,0 +1,12 @@
+.projects {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-column: span 12;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  margin: 0 1rem 1rem 1rem;
+}

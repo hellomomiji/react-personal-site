@@ -1,0 +1,55 @@
+.accordion-section {
+  padding: 1rem 0;
+}
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+
+  padding: 0.5rem;
+  
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-title::after {
+  content: "+";
+  font-size: 1.5rem;
+}
+
+.accordion-title--open::after {
+  content: "-";
+  font-size: 1.5rem;
+}
+
+.accordion-content {
+  padding: 0.5rem;
+}
+
+.accordion-content-title {
+  text-align: left;
+}
+
+.accordion-content-period {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.accordion-content-details {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+.accordion-content-text {
+  padding: 1rem 0 0 0.5rem;
+}
