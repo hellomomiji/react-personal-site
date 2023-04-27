@@ -5,7 +5,7 @@ function Header({setPage}) {
   return (
     <header className="header">
       <div className="header-block">
-        <a href="/"><img src="/react-personal-site/blob/main/public/img/logo.png" alt="yang site logo" className="header-logo"/></a>
+        <a href="/"><img src="/react-personal-site/img/logo.png" alt="yang site logo" className="header-logo"/></a>
         <h1 className="header-title">Yang's Personal Site</h1>
       </div>
       <GloablNav setPage={setPage} className="global-nav"/>
